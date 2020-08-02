@@ -1,5 +1,5 @@
 // Package kubernetes provides a kubernetes registry
-package kubernetes
+package k8s
 
 import (
 	"encoding/json"
