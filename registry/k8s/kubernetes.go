@@ -12,7 +12,7 @@ import (
 
 	"github.com/bigrocs/micro-plugins/registry/k8s/client"
 
-	"github.com/micro/go-micro/v2/cmd"
+	"github.com/micro/go-micro/v2/config/cmd"
 	"github.com/micro/go-micro/v2/registry"
 )
 
