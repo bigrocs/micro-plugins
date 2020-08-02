@@ -48,7 +48,7 @@ var podSelector = map[string]string{
 }
 
 func init() {
-	cmd.DefaultRegistries["kubernetes"] = NewRegistry
+	cmd.DefaultRegistries["k8s"] = NewRegistry
 }
 
 func configure(k *kregistry, opts ...registry.Option) error {
