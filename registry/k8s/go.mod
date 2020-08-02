@@ -1,4 +1,4 @@
-module github.com/micro/go-plugins/registry/kubernetes/v2
+module github.com/bigrocs/micro-plugins/registry/k8s
 
 go 1.13
 

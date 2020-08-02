@@ -12,8 +12,8 @@ import (
 	log "github.com/micro/go-micro/v2/logger"
 	"github.com/micro/go-micro/v2/registry"
 	"github.com/micro/go-micro/v2/router"
-	"github.com/micro/go-plugins/registry/kubernetes/v2/client"
-	"github.com/micro/go-plugins/registry/kubernetes/v2/client/mock"
+	"github.com/bigrocs/micro-plugins/registry/k8s/client"
+	"github.com/bigrocs/micro-plugins/registry/k8s/client/mock"
 )
 
 var (

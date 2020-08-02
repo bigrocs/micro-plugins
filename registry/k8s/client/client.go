@@ -10,8 +10,8 @@ import (
 
 	log "github.com/micro/go-micro/v2/logger"
 	"github.com/micro/go-micro/v2/util/log"
-	"github.com/micro/go-plugins/registry/kubernetes/v2/client/api"
-	"github.com/micro/go-plugins/registry/kubernetes/v2/client/watch"
+	"github.com/bigrocs/micro-plugins/registry/k8s/client/api"
+	"github.com/bigrocs/micro-plugins/registry/k8s/client/watch"
 )
 
 var (
